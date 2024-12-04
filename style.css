@@ -416,7 +416,6 @@ input:focus {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   flex-wrap: wrap;
 }
 
@@ -427,23 +426,44 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 1.2rem;
+  row-gap: 0.6rem;
   padding: 1rem;
   cursor: pointer;
 }
 
 .top-card-container {
-  width: 100%;
-  height: 32vh;
+  width: 345px;
+  height: 195px;
   background-image: url("./images/fame-back-ground.webp");
   background-position: center;
   background-size: cover;
   background-color: #f3f3f3;
   border-radius: 0.6rem;
+
   display: flex;
   justify-content: start;
   align-items: start;
   position: relative;
+}
+
+.second-top-card-container {
+  background-image: url("./images/extra-1.jpg");
+}
+
+.third-top-card-container {
+  background-image: url("./images/extra-2.jpg");
+}
+
+.fourth-top-card-container {
+  background-image: url("./images/extra-3.jpg");
+}
+
+.fifth-top-card-container {
+  background-image: url("./images/extraa.jpg");
+}
+
+.sixth-top-card-container {
+  background-image: url("./images/extra-5.jpg");
 }
 
 .duration-container {
@@ -491,7 +511,7 @@ input:focus {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  row-gap: 0.5rem;
+  row-gap: 0.2rem;
 }
 
 .text-heading-container {
@@ -500,7 +520,7 @@ input:focus {
 }
 
 .text-heading-container h1 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.4;
@@ -514,7 +534,7 @@ input:focus {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  row-gap: 0.4rem;
+  row-gap: 0.2rem;
 }
 
 .bimbotv-container {
